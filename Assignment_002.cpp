@@ -47,7 +47,7 @@ int main() {
     cout << "Enter number of subjects: ";
     cin >> subjects;
 
-    int grades[100][100];
+    int grades[students][subjects];
 
     cout << "\nEnter grades:\n";
     for (int i = 0; i < students; i++) {
